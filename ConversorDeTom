@@ -1,0 +1,103 @@
+|#include <stdio.h>
+
+int main()
+{
+    char tom;
+    
+    while (1) {
+        printf("\nPara sair digite 'q'\n\n");
+        printf("Insira o tom da musica: ");
+        scanf("%c", &tom);   
+        
+        if (tom == 'q') {
+            break;
+        }
+        
+        switch (tom) {
+        case 'A':
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde A será transformado em I.\n");
+        printf("O acorde B será transformado em II.\n");
+        printf("O acorde C# será transformado em III.\n");
+        printf("O acorde D será transformado em IV.\n");
+        printf("O acorde E será transformado em V.\n");
+        printf("O acorde F# será transformado em VI.\n");
+        printf("O acorde G# será transformado em VII.\n");
+        break;
+        
+        case 'B': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde B será transformado em I.\n");
+        printf("O acorde C# será transformado em II.\n");
+        printf("O acorde D# será transformado em III.\n");
+        printf("O acorde E será transformado em IV.\n");
+        printf("O acorde F# será transformado em V.\n");
+        printf("O acorde G# será transformado em VI.\n");
+        printf("O acorde A# será transformado em VII.\n");
+        break;
+        
+        case 'C': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde C será transformado em I.\n");
+        printf("O acorde D será transformado em II.\n");
+        printf("O acorde E será transformado em III.\n");
+        printf("O acorde F será transformado em IV.\n");
+        printf("O acorde G será transformado em V.\n");
+        printf("O acorde A será transformado em VI.\n");
+        printf("O acorde B será transformado em VII.\n");
+        break;
+        
+        case 'D': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde D será transformado em I.\n");
+        printf("O acorde E será transformado em II.\n");
+        printf("O acorde F# será transformado em III.\n");
+        printf("O acorde G será transformado em IV.\n");
+        printf("O acorde A será transformado em V.\n");
+        printf("O acorde B será transformado em VI.\n");
+        printf("O acorde C# será transformado em VII.\n");
+        break;
+        
+        case 'E': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde E será transformado em I.\n");
+        printf("O acorde F# será transformado em II.\n");
+        printf("O acorde G# será transformado em III.\n");
+        printf("O acorde A será transformado em IV.\n");
+        printf("O acorde B será transformado em V.\n");
+        printf("O acorde C# será transformado em VI.\n");
+        printf("O acorde D# será transformado em VII.\n");
+        break;
+        
+        case 'F': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde F será transformado em I.\n");
+        printf("O acorde G será transformado em II.\n");
+        printf("O acorde A será transformado em III.\n");
+        printf("O acorde Bb será transformado em IV.\n");
+        printf("O acorde C será transformado em V.\n");
+        printf("O acorde D será transformado em VI.\n");
+        printf("O acorde E será transformado em VII.\n");
+        break;
+        
+        case 'G': 
+        printf("\nA música está no tom: %c \n", tom);
+        printf("O acorde G será transformado em I.\n");
+        printf("O acorde A será transformado em II.\n");
+        printf("O acorde B será transformado em III.\n");
+        printf("O acorde C será transformado em IV.\n");
+        printf("O acorde D será transformado em V.\n");
+        printf("O acorde E será transformado em VI.\n");
+        printf("O acorde F# será transformado em VII.\n");
+        break;
+        
+        default:
+        printf("\nTom inválido! Insira um dos seguintes tons: A, B, C, D, E, F ou G.\n");
+        break;
+    }
+}
+
+    return 0;
+}
+    
+    
